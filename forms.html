@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>How it Works.</title>
+
+		<meta name="author" content="Angelica Juanillo | ajuanillo1@nait.ca">
+		<meta name="description" content="This is a lab demonstrating horinzontal scroll and forms.">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/modern-reset.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+
+	<body>
+		<header>
+			<div>
+		        <div>
+		        	<a href="#">
+		            	<img class="logo" src="img/upchances-logo.png" alt="Upchances logo">
+		            </a>
+		       	</div>
+
+		        <div class="menu-icon">
+		            <img src="img/hamburger-menu.png" alt="Yellow hamburger menu">
+		        </div>
+		    </div> <!-- end of .flex-container -->
+	        <nav>
+	            <ul class="menu">
+	                <li><a href="#">Services</a></li>
+	                <li><a href="#">How it Works</a></li>
+	                <li><a href="#">Pricing</a></li>
+	                <li><a href="#">Blog</a></li>
+	                <li><a href="#">About</a></li>
+	            </ul>
+	        </nav>
+    	</header>
+
+    	<main>
+    		<section>
+	    		<h2>How it Works.</h2>
+	    		<div class="steps-flex">
+	    			<div>
+			    		<section>
+			    			<h3>Step 1</h3>
+			    			<p>
+			    				Tell us a little about your project and requirements.
+							</p>
+			    		</section>
+			    		<section>
+			    			<h3>Step 2</h3>
+			    			<p>
+			    				Let us craft out a plan for your specific needs.
+			    			</p>
+			    		</section>
+		    		</div>
+
+		    		<div>
+			    		<section>
+			    			<h3>Step 3</h3>
+			    			<p>
+			    				Let us assemble a team that best supports your needs.
+			    			</p>
+			    		</section>
+			    		<section>
+			    			<h3>Step 4</h3>
+			    			<p>
+			    				Build innovative solutions to advance your business.
+			    			</p>
+			    		</section>
+		    		</div>
+		    	</div>
+	    	</section>
+
+	    	<section>
+	    		<div>
+	    			<h1 class="banner">Project Form.</h1>
+	    		</div>
+	    		<form action="#" method="post">
+                <fieldset>
+                    <p>Fill out the fields below and describe your needs.</p>
+
+                    <div class="flex-container">
+                        <div>
+                            <label for="fl-name">First/Last Name</label>
+                            <input type="text" id="fl-name" name="fl-name">
+                        </div>
+
+                        <div>
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div>
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <div>
+                            <label for="url">Website Url</label>
+                            <input type="url" id="url" name="url">
+                        </div>
+
+                        <div>
+                            <label for="number">Budget</label>
+                            <input type="number" id="number" name="number" placeholder="$3,000-$6,000">
+                        </div>
+
+                        <div>
+                            <label for="message">Project Description</label>
+                            <textarea id="message" name="message" cols="70" rows="10" placeholder="in 250 words or less" maxlength="250"></textarea>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                           <a class="btn" href="#">> Send.</a>
+                        </div>
+                    </div>
+                </fieldset>
+            	</form>
+        	</section>
+        </main>
+
+    	<footer>
+    		<div class="wide-footer-flex">
+	    		<a href="#">
+		            <img class="logo" src="img/upchances-logo.png" alt="Upchances logo">
+		        </a>
+		        <div class="footer-flex">
+			        <div>
+		    			<h4>Company</h4>
+			    		<nav>
+			    			<ul>
+			    				<li><a href="#">Our Story</a></li>
+			    				<li><a href="#">Our Team</a></li>
+			    				<li><a href="#">Clients</a></li>
+			    				<li><a href="#">Careers</a></li>
+			    			</ul>
+			    		</nav>
+			    	</div>
+			    	<div>
+		    			<h4>Services</h4>
+			    		<nav>
+			    			<ul>
+			    				<li><a href="#">Pricing</a></li>
+			    				<li><a href="#">Our Talents</a></li>
+			    				<li><a href="#">Tour</a></li>
+			    			</ul>
+			    		</nav>
+			    	</div>
+			    	<div>
+		    			<h4>Get in Touch</h4>
+			    		<nav>
+			    			<ul>
+			    				<li><a href="#">Contact Us</a></li>
+			    				<li><a href="#">Press &amp; Media</a></li>
+			    				<li class="email"><a href="#">hello@upchanges.ca</a></li>
+			    			</ul>
+			    		</nav>
+			    	</div>
+			    </div>
+			</div>
+		    <div class="grey-footer">
+		    	<p>Copyright &copy; 2020</p>
+		    	<p>For Educational Purposes Only</p>
+		    </div>
+    	</footer>
+
+    	<script src="js/main.js"></script>
+    </body>
+</html>
